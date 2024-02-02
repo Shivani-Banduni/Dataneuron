@@ -9,14 +9,7 @@ export default function Task2() {
     function Adddata(){
         setstatus(true)
     }
-    // function postdata(){
-    //     // Assuming you might want to send some data with the post request, you can pass it as the second argument to axios.post
-    //     axios.post('http://localhost:3001/api/add', { /* your data here */ })
-    //          .then((r) => console.log('yes'))
-    //          .catch((error) => console.error('Error posting data:', error)); // It's good practice to catch any errors
-    // }
-
-     // The empty array ensures this effect runs only once after the initial render
+   
 
     return (
         <div className='main'>
